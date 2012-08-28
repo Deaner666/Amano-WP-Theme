@@ -470,14 +470,14 @@ a:hover { text-decoration: none; }
 	padding-bottom: 0; height: auto;
 }
 #top.boxed .main_menu .avia_mega ul.sub-menu li a {
-	text-align: left; display: inline; margin: 0; padding: 6px 0 0 10px;
+	text-align: left; display: inline; margin: 0; padding: 8px 0 0 10px;
 	height: 30px; float: none; font-size: 12px; color: #071d44;
 	font-family: sans-serif; border-bottom: 1px solid #d0daeb;
 	text-decoration: none;
 }
 #top .main_menu .avia_mega > li > ul li { padding: 0; }
 #top.boxed .main_menu .avia_mega > li > ul li a:hover {
-	width: 212px; display: block !important; padding: 6px 0 0 10px;
+	width: 212px; display: block !important; padding: 8px 0 0 10px;
 	background: #eff9ff; margin: 0;
 	border-right: 1px solid #d0daeb;
 	border-bottom: 1px solid #d0daeb;
