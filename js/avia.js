@@ -323,7 +323,7 @@ function avia_ie_fix()
 					
 					currentItem.bind('mouseleave', function()
 					{
-						sublist.stop().animate({opacity:0}, function()
+						sublist.stop().animate({opacity:0},300, function()
 						{
 							sublist.css({visibility:'hidden'});
 						});
