@@ -126,7 +126,7 @@ $style = avia_get_option('boxed','boxed');
 			echo "</div>";
 		?>
 
-		<div id="phone-number">Tel. 01822 60060</div>
+		<div id="phone-number">Tel. 01822 600060</div>
 
 		<div id="acc-pane">
 			<div class="text-size">
