@@ -105,8 +105,8 @@
 			/* add javascript */
 			wp_enqueue_script( 'jquery' );
 		?>
-			<script src="wp-content/themes/abundance/js/jquery.cookie.js" type="text/javascript"></script>
-			<script src="wp-content/themes/abundance/js/jquery.textresizer.js" type="text/javascript"></script>
+			<script src="<?php get_option("siteurl"); ?>wp-content/themes/abundance/js/jquery.cookie.js" type="text/javascript"></script>
+			<script src="<?php get_option("siteurl"); ?>wp-content/themes/abundance/js/jquery.textresizer.js" type="text/javascript"></script>
 		<?php
 			wp_enqueue_script( 'avia-default' );
 			wp_enqueue_script( 'avia-prettyPhoto' );
