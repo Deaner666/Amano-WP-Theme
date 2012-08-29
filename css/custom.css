@@ -525,7 +525,10 @@ a:hover { text-decoration: none; }
 .sidebar { color: #071d44; }
 .sidebar h3 {	color: #004d95; }
 .sidebar a { color: #071d44; text-decoration: underline; }
-.sidebar a:hover { text-decoration: none; color: #9e2410; }
+.sidebar a:hover {
+	text-decoration: none; color: #9e2410;
+	background-color: #eff9ff;
+}
 .sidebar h3 { text-decoration: none; }
 
 .post-entry { padding-bottom: 10px; }
