@@ -138,10 +138,13 @@ a:hover { text-decoration: none; }
   background-image: -o-linear-gradient(top, #fff, #eff9ff);
 }
 #masthead #acc-pane label { font-size: 14px; margin-right: 10px; color: #071d44; }
-#masthead #acc-pane .text-size { position: absolute; float: left; top: 12px; left: 30px; width: 180px; }
-#masthead #acc-pane .text-size ul.acc-icons { margin-top: -32px; margin-right: 23px; }
+#masthead #acc-pane .text-size { position: absolute; float: left; top: 14px; left: 30px; width: 180px; }
+#masthead #acc-pane .text-size ul.acc-icons {
+	margin-top: -32px; margin-right: 23px;
+	position: absolute; left: 60px;
+}
 #masthead #acc-pane .text-size ul.acc-icons li {
-	float: right; text-indent: -9999px;
+	float: left; text-indent: -9999px;
 	margin-left: 3px;
 }
 #masthead #acc-pane .text-size ul.acc-icons li.small {

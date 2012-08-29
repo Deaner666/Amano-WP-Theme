@@ -34,25 +34,6 @@
 	<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/slideshow.css" type="text/css" media="screen"/>
 
 
-	<?php
-
-		/* add javascript */
-		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'avia-default' );
-		wp_enqueue_script( 'avia-prettyPhoto' );
-		wp_enqueue_script( 'avia-html5-video' );
-		wp_enqueue_script( 'avia_fade_slider' );
-		wp_enqueue_script( 'avia-slider' );
-		wp_enqueue_script( 'aviacordion' );
-
-
-		/* We add some JavaScript to pages with the comment form
-		 * to support sites with threaded comments (when in use).
-		 */
-		if ( is_singular() && get_option( 'thread_comments' ) ) { wp_enqueue_script( 'comment-reply' ); }
-		
-	?>
-
 	<!-- plugin and theme output with wp_head() -->
 	<?php 
 
@@ -132,9 +113,9 @@ $style = avia_get_option('boxed','boxed');
 			<div class="text-size">
 				<label>Text Size</label>
 				<ul class="acc-icons">
-					<li class="big"><a href="#">Large</a></li>
-					<li class="medium"><a href="#">Medium</a></li>
-					<li class="small"><a href="#">Small</a></li>
+					<li class="small"><a href="#nogo">Small</a></li>
+					<li class="medium"><a href="#nogo">Medium</a></li>
+					<li class="big"><a href="#nogo">Large</a></li>
 				</ul>
 			</div>
 			<form action="#" method="get" name="choose-style" id="choose-style">

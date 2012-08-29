@@ -100,6 +100,28 @@
 				echo "<div class='bg_container' style='background-image:url(".avia_get_option('bg_image').");'></div>"; 
 			}
 		?>
+
+		<?php
+			/* add javascript */
+			wp_enqueue_script( 'jquery' );
+		?>
+			<script src="wp-content/themes/abundance/js/jquery.cookie.js" type="text/javascript"></script>
+			<script src="wp-content/themes/abundance/js/jquery.textresizer.js" type="text/javascript"></script>
+		<?php
+			wp_enqueue_script( 'avia-default' );
+			wp_enqueue_script( 'avia-prettyPhoto' );
+			wp_enqueue_script( 'avia-html5-video' );
+			wp_enqueue_script( 'avia_fade_slider' );
+			wp_enqueue_script( 'avia-slider' );
+			wp_enqueue_script( 'aviacordion' );
+
+
+			/* We add some JavaScript to pages with the comment form
+			 * to support sites with threaded comments (when in use).
+			 */
+			if ( is_singular() && get_option( 'thread_comments' ) ) { wp_enqueue_script( 'comment-reply' ); }
+		
+		?>
 		
 
 <?php

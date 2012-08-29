@@ -109,6 +109,16 @@ jQuery(document).ready(function(){
 	// improves comment forms
 	if(jQuery.fn.kriesi_empty_input)
 	jQuery('#s').kriesi_empty_input();
+
+	// -------------------------------------------------------------------------------------------
+	// Text Resizer added by Dave
+	// -------------------------------------------------------------------------------------------
+
+	jQuery( ".text-size a" ).textresizer({
+	  target: "#main",
+	  sizes: [ "1em", "1.5em", "2em" ],
+	  selectedIndex: 0
+	});
 });
 
 
@@ -1655,11 +1665,6 @@ function avia_log(text)
 		});
 	};
 })(jQuery);
-
-
-
-
-
 
 
 function avia_iframe_fix()
