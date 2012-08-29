@@ -115,8 +115,8 @@ jQuery(document).ready(function(){
 	// -------------------------------------------------------------------------------------------
 
 	jQuery( ".text-size a" ).textresizer({
-	  target: "#main",
-	  sizes: [ "1em", "1.5em", "2em" ],
+	  target: "#main p",
+	  sizes: [ "1em", "1.3em", "1.5em" ],
 	  selectedIndex: 0
 	});
 });

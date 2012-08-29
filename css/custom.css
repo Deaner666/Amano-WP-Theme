@@ -151,13 +151,22 @@ a:hover { text-decoration: none; }
 	width: 21px; height: 34px;
 	background: url('../images/custom/icons/a_little.png') no-repeat bottom left;
 }
+#masthead #acc-pane .text-size ul.acc-icons li.small a.textresizer-active {
+	background: url('../images/custom/icons/a_little_selected.png') no-repeat bottom left;
+}
 #masthead #acc-pane .text-size ul.acc-icons li.medium {
 	width: 28px; height: 34px;
 	background: url('../images/custom/icons/a_medium.png') no-repeat bottom left;
 }
+#masthead #acc-pane .text-size ul.acc-icons li.medium a.textresizer-active {
+	background: url('../images/custom/icons/a_medium_selected.png') no-repeat bottom left;
+}
 #masthead #acc-pane .text-size ul.acc-icons li.big {
 	width: 36px; height: 34px;
 	background: url('../images/custom/icons/a_big.png') no-repeat bottom left;
+}
+#masthead #acc-pane .text-size ul.acc-icons li.big a.textresizer-active {
+	background: url('../images/custom/icons/a_big_selected.png') no-repeat bottom left;
 }
 #masthead #acc-pane .text-size ul.acc-icons li a { display: block; height: 34px; }
 #masthead #acc-pane form#choose-style {  }
