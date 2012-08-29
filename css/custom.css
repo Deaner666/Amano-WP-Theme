@@ -197,7 +197,7 @@ a:hover { text-decoration: none; }
 
 #top.boxed .main_menu .avia_mega {
 	float: right; width: 719px; height: 45px; margin: -65px 25px 0 0;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#c6eaffc6eaff));
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#c6eaff));
   background-image: -webkit-linear-gradient(top, #fcfeff, #c6eaff); 
   background-image: -moz-linear-gradient(top, #fcfeff, #c6eaff);
   background-image: -ms-linear-gradient(top, #fcfeff, #c6eaff);
@@ -527,7 +527,10 @@ a:hover { text-decoration: none; }
 .sidebar a { color: #071d44; text-decoration: underline; }
 .sidebar a:hover {
 	text-decoration: none; color: #9e2410;
-	background-color: #eff9ff;
+	background-color: #c6eaff;
+}
+.sidebar_right > .widget_nav_menu a:hover {
+	background-color: #c6eaff; /* Overrides minimal.css */
 }
 .sidebar h3 { text-decoration: none; }
 
