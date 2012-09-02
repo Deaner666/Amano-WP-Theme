@@ -81,7 +81,7 @@ $style = avia_get_option('boxed','boxed');
 	<div id="masthead">
 
 		<div id="logo">
-			<h1>Amano Technologies Ltd.</h1>
+			<h1><a href="<?php echo get_option("siteurl"); ?>">Amano Technologies Ltd.</a></h1>
 		</div>
 
 		<ul id="social_bookmarks">

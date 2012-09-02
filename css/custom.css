@@ -50,8 +50,8 @@ a:hover { text-decoration: none; }
 	height: 224px; width: 210px; float: left;
 	background: url('../images/custom/layout/amano_technologies_logo.jpg') no-repeat top left;
 }
-
 #masthead #logo h1 { text-indent: -9999px; }
+#masthead #logo h1 a { display: block; height: 224px; width: 210px;}
 
 #masthead ul#social_bookmarks { position: relative; left: 20px; }
 #masthead ul#social_bookmarks li { text-indent: -9999px; width: 32px; height: 32px; float: left; margin: 10px 10px 0 0; }
