@@ -458,6 +458,16 @@ a:hover { text-decoration: none; }
 	font-family: 'Ubuntu', sans-serif; font-weight: medium;
 	font-size: 16px; color: #004d95; padding: 0 10px; height: 45px;
 }
+#top.boxed .main_menu .avia_mega li:hover {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
+  background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
+  background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
+  background-image: -ms-linear-gradient(top, #fcfeff, #eff9ff);
+  background-image: -o-linear-gradient(top, #fcfeff, #eff9ff);
+}
+#top.boxed .main_menu .avia_mega li a:hover {
+	color: #9e2410;
+}
 #top.boxed .main_menu .avia_mega > li > ul li:first-child a {
 	border-top: 1px solid #d0daeb;
 	-webkit-border-top-right-radius: 4px;
