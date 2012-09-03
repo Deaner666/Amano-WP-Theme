@@ -43,15 +43,15 @@ a:hover { text-decoration: none; }
 *************************************************************************/
 
 #masthead {
-	background: #fff; height: 204px; width: 930px; margin: 0 auto; padding: 0 25px 20px 25px;
+	background: #fff; height: 200px; width: 930px; margin: 0 auto; padding: 0 25px 20px 25px;
 }
 
 #masthead #logo {
-	height: 224px; width: 210px; float: left;
-	background: url('../images/custom/layout/amano_technologies_logo.jpg') no-repeat top left;
+	height: 200px; width: 193px; float: left;
+	background: url('../images/custom/layout/amano_technologies_logo_med.png') no-repeat top left;
 }
 #masthead #logo h1 { text-indent: -9999px; }
-#masthead #logo h1 a { display: block; height: 224px; width: 210px;}
+#masthead #logo h1 a { display: block; height: 200px; width: 193px;}
 
 #masthead ul#social_bookmarks { position: relative; left: 20px; }
 #masthead ul#social_bookmarks li { text-indent: -9999px; width: 32px; height: 32px; float: left; margin: 10px 10px 0 0; }
@@ -125,23 +125,26 @@ a:hover { text-decoration: none; }
 }
 
 #masthead #phone-number {
-	font-size: 26px; font-family: 'Ubuntu', sans-serif; font-weight: medium; color: #071d44;
-	text-align: right; margin-top: 23px; margin-right: 20px;
+	font-size: 26px; font-family: 'Ubuntu', sans-serif;
+	font-weight: medium; color: #004d95;
+	text-align: right; position: relative; float: left;
+	left: 55px; top: 20px;
 	}
 
 #masthead #acc-pane {
-	position: relative; width: 510px; top: 10px; left: 210px; padding-bottom: 10px;
+	position: relative; width: 527px; height: 44px; top: 25px; left: 193px; padding-bottom: 10px;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eff9ff));
   background-image: -webkit-linear-gradient(top, #fff, #eff9ff); 
   background-image: -moz-linear-gradient(top, #fff, #eff9ff);
   background-image: -ms-linear-gradient(top, #fff, #eff9ff);
   background-image: -o-linear-gradient(top, #fff, #eff9ff);
 }
-#masthead #acc-pane label { font-size: 14px; margin-right: 10px; color: #071d44; }
+#masthead #acc-pane label.text { font-size: 12px; margin-right: 20px; color: #071d44; }
+#masthead #acc-pane label.colour { font-size: 12px; position: absolute; top: 12px; left: 375px; color: #071d44; }
 #masthead #acc-pane .text-size { position: absolute; float: left; top: 14px; left: 30px; width: 180px; }
 #masthead #acc-pane .text-size ul.acc-icons {
-	margin-top: -32px; margin-right: 23px;
-	position: absolute; left: 60px;
+	margin-top: -32px; margin-right: 13px;
+	position: absolute; left: 70px;
 }
 #masthead #acc-pane .text-size ul.acc-icons li {
 	float: left; text-indent: -9999px;
@@ -169,10 +172,36 @@ a:hover { text-decoration: none; }
 	background: url('../images/custom/icons/a_big_selected.png') no-repeat bottom left;
 }
 #masthead #acc-pane .text-size ul.acc-icons li a { display: block; height: 34px; }
-#masthead #acc-pane form#choose-style {  }
+
+#masthead #acc-pane div#choose-style {  }
+#masthead #acc-pane div#choose-style ul.acc-style {
+	position: absolute; left: 200px; margin-top: 5px;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li {
+	float: left; text-indent: -9999px;
+	margin-left: 3px;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li.amano {
+	background: url('../images/custom/icons/colours/amano.png') no-repeat top left;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li.black-on-white {
+	background: url('../images/custom/icons/colours/black_on_white.png') no-repeat top left;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li.black-on-yellow {
+	background: url('../images/custom/icons/colours/black_on_yellow.png') no-repeat top left;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li.yellow-on-black {
+	background: url('../images/custom/icons/colours/yellow_on_black.png') no-repeat top left;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li.black-on-cream {
+	background: url('../images/custom/icons/colours/black_on_cream.png') no-repeat top left;
+}
+#masthead #acc-pane div#choose-style ul.acc-style li a {
+	display: block; height: 30px; width: 30px;
+}
 
 #masthead ul.cart_dropdown {
-	position: relative; float: right; width: 188px; height: 39px;
+	position: relative; float: right; width: 188px; height: 43px;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
   background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
   background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
@@ -185,13 +214,13 @@ a:hover { text-decoration: none; }
 	-moz-border-radius-topleft: 4px;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
-	margin-top: -36px; margin-right: 20px; z-index: 1000;
+	margin-top: -24px; margin-right: 20px; z-index: 1000;
 }
 #masthead ul.cart_dropdown a.cart_dropdown_link { color: #071d44; }
 #masthead li.cart_dropdown_first { margin-left: 10px; }
 #masthead .dropdown_widget_cart {
 	border: 1px solid #9fb4d7; border-top: 0;
-	top: 40px; right: -1px;
+	top: 44px; right: -1px;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
 	-moz-border-radius-bottomright: 4px;
@@ -208,7 +237,7 @@ a:hover { text-decoration: none; }
 *************************************************************************/
 
 #top.boxed .main_menu .avia_mega {
-	float: right; width: 719px; height: 45px; margin: -65px 25px 0 0;
+	float: right; margin: -90px 25px 0 0;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#c6eaff));
   background-image: -webkit-linear-gradient(top, #fcfeff, #c6eaff); 
   background-image: -moz-linear-gradient(top, #fcfeff, #c6eaff);
@@ -227,7 +256,7 @@ a:hover { text-decoration: none; }
 	-webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.15);
 	-moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.15);
 	box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.15);
-	width: 720px; height: 47px;
+	width: 736px; height: 47px;
 }
 
 #top .main_menu .avia_mega img {
@@ -521,11 +550,7 @@ a:hover { text-decoration: none; }
 	box-shadow:         0px 0px 0px rgba(50, 50, 50, 0.15);
 }
 
-/*#main {
-	-webkit-box-shadow: 0px 0px 19px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 0px 19px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 0px 19px rgba(50, 50, 50, 0.75);
-}*/
+#main { padding-top: 0; }
 
 .sidebar {
 	border: 1px solid #d0daeb;
