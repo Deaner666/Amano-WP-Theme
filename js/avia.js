@@ -114,10 +114,25 @@ jQuery(document).ready(function(){
 	// Text Resizer added by Dave
 	// -------------------------------------------------------------------------------------------
 
+	// Font size
 	jQuery( ".text-size a" ).textresizer({
 	  target: "#main p",
 	  sizes: [ "1em", "1.3em", "1.5em" ],
 	  selectedIndex: 0
+	});
+
+	// Colour scheme
+	jQuery( "#choose-style a" ).textresizer({
+	  target: "body",
+	  type: "cssClass",
+	  sizes: [ // Colour schemes really
+        "amano-a",
+        "black-on-white-style",
+        "black-on-yellow-style",
+        "yellow-on-black-style",
+        "black-on-cream-style"
+     	],
+     selectedIndex: 0
 	});
 });
 

@@ -122,10 +122,10 @@ $style = avia_get_option('boxed','boxed');
 				<label class="colour">&larr; Colour scheme</label>
 				<ul class="acc-style">
 					<li class="amano"><a href="#">Amano style</a></li>
-					<li class="black-on-white"><a href="#">Black on White</a></li>
-					<li class="black-on-yellow"><a href="#">Black on Yellow</a></li>
-					<li class="yellow-on-black"><a href="#">Yellow on Black</a></li>
-					<li class="black-on-cream"><a href="#">Black on Cream</a></li>
+					<li class="black-on-white"><a href="#" class="black-on-white-style">Black on White</a></li>
+					<li class="black-on-yellow"><a href="#" class="black-on-yellow-style">Black on Yellow</a></li>
+					<li class="yellow-on-black"><a href="#" class="yellow-on-black-style">Yellow on Black</a></li class="black-on-white-a">
+					<li class="black-on-cream"><a href="#" class="black-on-cream-style">Black on Cream</a></li>
 				</ul>
 			</div>
 		</div><!-- end acc-pane -->

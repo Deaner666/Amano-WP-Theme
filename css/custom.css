@@ -708,7 +708,7 @@ border-radius: 4px;
 .avia-box.error .avia-innerbox { background: transparent url("../images/icons/error.png") no-repeat center left; padding:2px 0 2px 22px;	}
 .avia-box.help .avia-innerbox {	background: transparent url("../images/icons/help.png") no-repeat center left; 	padding:2px 0 2px 22px; }
 .avia-box.download .avia-innerbox {	background: transparent url("../images/icons/download.png") no-repeat center left; padding:2px 0 2px 22px;	}
-.avia-box.custom_icon_none .avia-innerbox { padding:2px; }
+.avia-box.custom_icon_none .avia-innerbox { padding: 2px; }
 
 
 .avia-box.info 	{ border-color:#4b87d0; background: #a6bfde; color:#fff; }
@@ -718,3 +718,77 @@ border-radius: 4px;
 .avia-box.error { border-color:#941210; background: #f0dcdb; color:#941210; }
 .avia-box.help 	{ border-color:#4b87d0; background: #a6bfde; color:#fff; }
 .avia-box.download {  border-color:#4b87d0; background: #a6bfde; color:#fff; }
+
+
+/************************************************************************
+-) ACCESSIBILITY COLOUR SCHEMES
+*************************************************************************/
+
+/* Black on white */
+body.black-on-white-style { background: #000; color: #000; }
+body.black-on-white-style #footer,
+body.black-on-white-style #footer div,
+body.black-on-white-style #footer a,
+body.black-on-white-style #footer p,
+body.black-on-white-style #footer span {
+	background: #000 !important; color: #fff !important;
+}
+
+/* Black on yellow */
+body.black-on-yellow-style { background: #fce739; color: #000; }
+body.black-on-yellow-style #masthead { background: #fce739; color: #000; }
+body.black-on-yellow-style #masthead #acc-pane { background: none; }
+body.black-on-yellow-style #masthead #phone-number { color: #000; }
+body.black-on-yellow-style #main { background: #fce739; }
+body.black-on-yellow-style #footer,
+body.black-on-yellow-style #footer div,
+body.black-on-yellow-style #footer a,
+body.black-on-yellow-style #footer p,
+body.black-on-yellow-style #footer span,
+body.black-on-yellow-style #footer h3 {
+	background: #fce739 !important; color: #000 !important; font-weight: bold;
+}
+
+/* Yellow on black */
+body.yellow-on-black-style { background: #000; color: #fce739; }
+body.yellow-on-black-style p,
+body.yellow-on-black-style h1, body.yellow-on-black-style h2,
+body.yellow-on-black-style h3, body.yellow-on-black-style h4,
+body.yellow-on-black-style h5, body.yellow-on-black-style h6 { color: #fce739; }
+body.yellow-on-black-style div.sidebar h1, body.yellow-on-black-style div.sidebar h2,
+body.yellow-on-black-style div.sidebar h3, body.yellow-on-black-style div.sidebar h4,
+body.yellow-on-black-style div.sidebar h5, body.yellow-on-black-style div.sidebar h6 { color: #000; }
+body.yellow-on-black-style a { color: #fce739; }
+body.yellow-on-black-style div.avia-box p,
+body.yellow-on-black-style div.sidebar p { color: #000; }
+body.yellow-on-black-style div.avia-box a,
+body.yellow-on-black-style div.sidebar a { color: #000; }
+body.yellow-on-black-style #masthead { background: #000; color: #fce739; }
+body.yellow-on-black-style #masthead #acc-pane { background: none; }
+body.yellow-on-black-style #masthead #phone-number,
+body.yellow-on-black-style #masthead #acc-pane label { color: #fce739; }
+body.yellow-on-black-style #masthead span.amount { color: #000; }
+body.yellow-on-black-style #main { background: #000; }
+body.yellow-on-black-style #footer,
+body.yellow-on-black-style #footer div,
+body.yellow-on-black-style #footer a,
+body.yellow-on-black-style #footer p,
+body.yellow-on-black-style #footer span,
+body.yellow-on-black-style #footer h3 {
+	background: #000 !important; color: #fce739 !important; font-weight: bold;
+}
+
+/* Black on cream */
+body.black-on-cream-style { background: #fffde6; color: #000; }
+body.black-on-cream-style #masthead { background: #fffde6; color: #000; }
+body.black-on-cream-style #masthead #acc-pane { background: none; }
+body.black-on-cream-style #masthead #phone-number { color: #000; }
+body.black-on-cream-style #main { background: #fffde6; }
+body.black-on-cream-style #footer,
+body.black-on-cream-style #footer div,
+body.black-on-cream-style #footer a,
+body.black-on-cream-style #footer p,
+body.black-on-cream-style #footer span,
+body.black-on-cream-style #footer h3 {
+	background: #fffde6 !important; color: #000 !important; font-weight: bold;
+}
