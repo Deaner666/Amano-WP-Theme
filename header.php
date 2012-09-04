@@ -94,6 +94,8 @@ $style = avia_get_option('boxed','boxed');
 		</ul>
 		<!-- end social_bookmarks-->
 
+		<div id="phone-number">Tel. 01822 600060</div>
+
 		<?php
 			/*
 			*	display the main navigation menu
@@ -107,24 +109,25 @@ $style = avia_get_option('boxed','boxed');
 			echo "</div>";
 		?>
 
-		<div id="phone-number">Tel. 01822 600060</div>
-
 		<div id="acc-pane">
 			<div class="text-size">
-				<label>Text Size</label>
+				<label class="text">Text Size &rarr;</label>
 				<ul class="acc-icons">
-					<li class="small"><a href="#nogo">Small</a></li>
-					<li class="medium"><a href="#nogo">Medium</a></li>
-					<li class="big"><a href="#nogo">Large</a></li>
+					<li class="small"><a href="#">Small</a></li>
+					<li class="medium"><a href="#">Medium</a></li>
+					<li class="big"><a href="#">Large</a></li>
 				</ul>
 			</div>
-			<form action="#" method="get" name="choose-style" id="choose-style">
-				<label>Style</label>
-				<select name="acc-style">
-					<option value="amano-style">Amano style</option>
-					<option value="high-contrast">High contrast</option>
-				</select>
-			</form>
+			<div id="choose-style">
+				<label class="colour">&larr; Colour scheme</label>
+				<ul class="acc-style">
+					<li class="amano"><a href="#">Amano style</a></li>
+					<li class="black-on-white"><a href="#">Black on White</a></li>
+					<li class="black-on-yellow"><a href="#">Black on Yellow</a></li>
+					<li class="yellow-on-black"><a href="#">Yellow on Black</a></li>
+					<li class="black-on-cream"><a href="#">Black on Cream</a></li>
+				</ul>
+			</div>
 		</div><!-- end acc-pane -->
 
 		<?php
