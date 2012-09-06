@@ -743,12 +743,27 @@ border-radius: 4px;
 
 /* Black on white */
 body.black-on-white-style { background: #000; color: #000; }
+body.black-on-white-style p,
+body.black-on-white-style h1, body.black-on-white-style h2,
+body.black-on-white-style h3, body.black-on-white-style h4,
+body.black-on-white-style h5, body.black-on-white-style h6 { color: #000; }
+body.black-on-white-style div.sidebar h1, body.black-on-white-style div.sidebar h2,
+body.black-on-white-style div.sidebar h3, body.black-on-white-style div.sidebar h4,
+body.black-on-white-style div.sidebar h5, body.black-on-white-style div.sidebar h6 { color: #000; }
+body.black-on-white-style a { color: #000; }
+body.black-on-white-style div.avia-box p,
+body.black-on-white-style div.sidebar p { color: #000; }
+body.black-on-white-style div.avia-box a,
+body.black-on-white-style div.sidebar a { color: #000; }
 body.black-on-white-style #footer,
 body.black-on-white-style #footer div,
 body.black-on-white-style #footer a,
 body.black-on-white-style #footer p,
-body.black-on-white-style #footer span {
+body.black-on-white-style #footer span,
+body.black-on-white-style #footer h3,
+body.black-on-white-style #footer ul {
 	background: #000 !important; color: #fff !important;
+	border-color: #fff !important;
 }
 
 /* Black on yellow */
@@ -757,13 +772,27 @@ body.black-on-yellow-style #masthead { background: #fce739; color: #000; }
 body.black-on-yellow-style #masthead #acc-pane { background: none; }
 body.black-on-yellow-style #masthead #phone-number { color: #000; }
 body.black-on-yellow-style #main { background: #fce739; }
+body.black-on-yellow-style p,
+body.black-on-yellow-style h1, body.black-on-yellow-style h2,
+body.black-on-yellow-style h3, body.black-on-yellow-style h4,
+body.black-on-yellow-style h5, body.black-on-yellow-style h6 { color: #000; }
+body.black-on-yellow-style div.sidebar h1, body.black-on-yellow-style div.sidebar h2,
+body.black-on-yellow-style div.sidebar h3, body.black-on-yellow-style div.sidebar h4,
+body.black-on-yellow-style div.sidebar h5, body.black-on-yellow-style div.sidebar h6 { color: #000; }
+body.black-on-yellow-style a { color: #000; }
+body.black-on-yellow-style div.avia-box p,
+body.black-on-yellow-style div.sidebar p { color: #000; }
+body.black-on-yellow-style div.avia-box a,
+body.black-on-yellow-style div.sidebar a { color: #000; }
 body.black-on-yellow-style #footer,
 body.black-on-yellow-style #footer div,
 body.black-on-yellow-style #footer a,
 body.black-on-yellow-style #footer p,
 body.black-on-yellow-style #footer span,
-body.black-on-yellow-style #footer h3 {
+body.black-on-yellow-style #footer h3,
+body.black-on-yellow-style #footer ul {
 	background: #fce739 !important; color: #000 !important; font-weight: bold;
+	border-color: #000 !important;
 }
 
 /* Yellow on black */
@@ -791,8 +820,10 @@ body.yellow-on-black-style #footer div,
 body.yellow-on-black-style #footer a,
 body.yellow-on-black-style #footer p,
 body.yellow-on-black-style #footer span,
-body.yellow-on-black-style #footer h3 {
+body.yellow-on-black-style #footer h3,
+body.yellow-on-black-style #footer ul {
 	background: #000 !important; color: #fce739 !important; font-weight: bold;
+	border-color: #fce739 !important;
 }
 
 /* Black on cream */
@@ -801,11 +832,25 @@ body.black-on-cream-style #masthead { background: #fffde6; color: #000; }
 body.black-on-cream-style #masthead #acc-pane { background: none; }
 body.black-on-cream-style #masthead #phone-number { color: #000; }
 body.black-on-cream-style #main { background: #fffde6; }
+body.black-on-cream-style p,
+body.black-on-cream-style h1, body.black-on-cream-style h2,
+body.black-on-cream-style h3, body.black-on-cream-style h4,
+body.black-on-cream-style h5, body.black-on-cream-style h6 { color: #000; }
+body.black-on-cream-style div.sidebar h1, body.black-on-cream-style div.sidebar h2,
+body.black-on-cream-style div.sidebar h3, body.black-on-cream-style div.sidebar h4,
+body.black-on-cream-style div.sidebar h5, body.black-on-cream-style div.sidebar h6 { color: #000; }
+body.black-on-cream-style a { color: #000; }
+body.black-on-cream-style div.avia-box p,
+body.black-on-cream-style div.sidebar p { color: #000; }
+body.black-on-cream-style div.avia-box a,
+body.black-on-cream-style div.sidebar a { color: #000; }
 body.black-on-cream-style #footer,
 body.black-on-cream-style #footer div,
 body.black-on-cream-style #footer a,
 body.black-on-cream-style #footer p,
 body.black-on-cream-style #footer span,
-body.black-on-cream-style #footer h3 {
+body.black-on-cream-style #footer h3,
+body.black-on-cream-style #footer ul {
 	background: #fffde6 !important; color: #000 !important; font-weight: bold;
+	border-color: #000 !important;
 }
