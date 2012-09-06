@@ -280,7 +280,9 @@ a:hover { text-decoration: none; }
 	background: none; border: none; cursor: pointer !important;
 }
 
-#top .main_menu .avia_mega li {	float: left;	position: relative; }
+#top .main_menu .avia_mega li {
+	float: left;	position: relative; width: 14.2%;
+}
 
 #top .main_menu .avia_mega ul a:hover {
 	text-decoration: underline;
@@ -483,9 +485,11 @@ a:hover { text-decoration: none; }
 /* My overrides */
 
 .main_menu li { border-right: 1px solid #bbd3e8; height: 47px; }
+.main_menu ul li:last-child { border-right: none; }
+
 #top.boxed .main_menu .avia_mega li a {
 	font-family: 'Ubuntu', sans-serif; font-weight: medium;
-	font-size: 16px; color: #004d95; padding: 0 10px; height: 45px;
+	font-size: 16px; color: #004d95; padding: 0; float: none; height: 45px;
 }
 #top.boxed .main_menu .avia_mega li:hover {
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
@@ -496,6 +500,9 @@ a:hover { text-decoration: none; }
 }
 #top.boxed .main_menu .avia_mega li a:hover {
 	color: #9e2410;
+}
+#top.boxed .main_menu .avia_mega li:last-child a:hover {
+ border-left: none;
 }
 #top.boxed .main_menu .avia_mega > li > ul li:first-child a {
 	border-top: 1px solid #d0daeb;
@@ -515,7 +522,9 @@ a:hover { text-decoration: none; }
 	border-bottom-left-radius: 4px;
 }
 
-#top.boxed .main_menu .avia_mega li span.dropdown_available { right: 5px; }
+#top.boxed .main_menu .avia_mega li span.dropdown_available {
+	right: 0; position: static; margin-left: -5px;
+}
 
 #top.boxed .main_menu .avia_mega ul.sub-menu li {
 	padding-bottom: 0; height: auto;
