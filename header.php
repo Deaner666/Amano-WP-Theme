@@ -111,7 +111,7 @@ $style = avia_get_option('boxed','boxed');
 
 		<div id="acc-pane">
 			<div class="text-size">
-				<label class="text">Text Size &rarr;</label>
+				<!-- <label class="text">Text Size &rarr;</label> -->
 				<ul class="acc-icons">
 					<li class="small"><a href="#">Small</a></li>
 					<li class="medium"><a href="#">Medium</a></li>
@@ -119,7 +119,7 @@ $style = avia_get_option('boxed','boxed');
 				</ul>
 			</div>
 			<div id="choose-style">
-				<label class="colour">&larr; Colour scheme</label>
+				<!-- <label class="colour">&larr; Colour scheme</label> -->
 				<ul class="acc-style">
 					<li class="amano"><a href="#">Amano style</a></li>
 					<li class="black-on-white"><a href="#" class="black-on-white-style">Black on White</a></li>
