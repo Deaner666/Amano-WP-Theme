@@ -201,7 +201,7 @@ a:hover { text-decoration: none; }
 }
 
 #masthead ul.cart_dropdown {
-	position: relative; float: right; width: 231px; height: 42px;
+	position: relative; float: right; width: 231px; height: 41px;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
   background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
   background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
@@ -599,6 +599,23 @@ a:hover { text-decoration: none; }
 .sidebar h3 { text-decoration: none; }
 
 .post-entry { padding-bottom: 10px; }
+
+/* Lists */
+.entry-content ul, .entry-content ol {
+	padding-top:5px;
+}
+.entry-content ul li {
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-left: 17px;
+	padding: 2px 0;
+}
+.entry-content ol li {
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin-left: 17px;
+	padding: 3px 0px 3px 0;
+}
 
 ul#amano-footer-logos {
 	float: left; padding-top: 10px; padding-bottom: 10px;
