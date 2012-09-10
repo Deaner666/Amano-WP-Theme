@@ -797,7 +797,8 @@ body.black-on-white-style { background: #000; color: #000; }
 body.black-on-white-style p,
 body.black-on-white-style h1, body.black-on-white-style h2,
 body.black-on-white-style h3, body.black-on-white-style h4,
-body.black-on-white-style h5, body.black-on-white-style h6 { color: #000; }
+body.black-on-white-style h5, body.black-on-white-style h6,
+body.black-on-white-style #top .title_container h1 { color: #000 !important; }
 body.black-on-white-style div.sidebar h1, body.black-on-white-style div.sidebar h2,
 body.black-on-white-style div.sidebar h3, body.black-on-white-style div.sidebar h4,
 body.black-on-white-style div.sidebar h5, body.black-on-white-style div.sidebar h6 { color: #000; }
@@ -826,7 +827,8 @@ body.black-on-yellow-style #main { background: #fce739; }
 body.black-on-yellow-style p,
 body.black-on-yellow-style h1, body.black-on-yellow-style h2,
 body.black-on-yellow-style h3, body.black-on-yellow-style h4,
-body.black-on-yellow-style h5, body.black-on-yellow-style h6 { color: #000; }
+body.black-on-yellow-style h5, body.black-on-yellow-style h6,
+body.black-on-yellow-style #top .title_container h1  { color: #000 !important; }
 body.black-on-yellow-style div.sidebar h1, body.black-on-yellow-style div.sidebar h2,
 body.black-on-yellow-style div.sidebar h3, body.black-on-yellow-style div.sidebar h4,
 body.black-on-yellow-style div.sidebar h5, body.black-on-yellow-style div.sidebar h6 { color: #000; }
@@ -851,7 +853,8 @@ body.yellow-on-black-style { background: #000; color: #fce739; }
 body.yellow-on-black-style p,
 body.yellow-on-black-style h1, body.yellow-on-black-style h2,
 body.yellow-on-black-style h3, body.yellow-on-black-style h4,
-body.yellow-on-black-style h5, body.yellow-on-black-style h6 { color: #fce739; }
+body.yellow-on-black-style h5, body.yellow-on-black-style h6,
+body.yellow-on-black-style #top .title_container h1 { color: #fce739 !important; }
 body.yellow-on-black-style div.sidebar h1, body.yellow-on-black-style div.sidebar h2,
 body.yellow-on-black-style div.sidebar h3, body.yellow-on-black-style div.sidebar h4,
 body.yellow-on-black-style div.sidebar h5, body.yellow-on-black-style div.sidebar h6 { color: #000; }
@@ -886,7 +889,8 @@ body.black-on-cream-style #main { background: #fffde6; }
 body.black-on-cream-style p,
 body.black-on-cream-style h1, body.black-on-cream-style h2,
 body.black-on-cream-style h3, body.black-on-cream-style h4,
-body.black-on-cream-style h5, body.black-on-cream-style h6 { color: #000; }
+body.black-on-cream-style h5, body.black-on-cream-style h6,
+body.black-on-cream-style #top .title_container h1 { color: #000 !important; }
 body.black-on-cream-style div.sidebar h1, body.black-on-cream-style div.sidebar h2,
 body.black-on-cream-style div.sidebar h3, body.black-on-cream-style div.sidebar h4,
 body.black-on-cream-style div.sidebar h5, body.black-on-cream-style div.sidebar h6 { color: #000; }
