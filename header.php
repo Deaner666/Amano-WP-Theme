@@ -131,9 +131,28 @@ $style = avia_get_option('boxed','boxed');
 		</div><!-- end acc-pane -->
 
 		<?php
-			if(avia_woocommerce_enabled()) echo avia_woocommerce_cart_dropdown();
-			echo "</div>";
+			// Temporarily removed whilst we wait for shop to go live
+			// if(avia_woocommerce_enabled()) echo avia_woocommerce_cart_dropdown();
+			// echo "</div>";
 		?>
+
+		<!-- Temporary whilst we wait for shop to go live -->
+		<ul class = 'cart_dropdown' data-success='Product added'>
+			<li class='cart_dropdown_first'>
+				<a class='cart_dropdown_link' href='http://localhost:8888/amano/?page_id=6'>Cart</a>
+				<span class='cart_subtotal'>
+					<span class="amount">&pound;0</span>
+				</span>
+				<div class='dropdown_widget dropdown_widget_cart'>
+					<span class="hidden">Cart</span><!--mfunc woocommerce_mini_cart() -->
+					<ul class="cart_list product_list_widget ">
+						<li class="empty">Online shop coming soon</li>
+					</ul>
+				<!-- end product list --><!--/mfunc-->
+				</div>
+			</li>
+		</ul>
+		</div><!-- Remove to here -->
 
 		<?php
 			echo "<div class='main_menu'>";
