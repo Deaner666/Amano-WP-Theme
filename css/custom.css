@@ -220,7 +220,7 @@ a:hover { text-decoration: none; }
 #masthead li.cart_dropdown_first { margin-left: 10px; }
 #masthead .dropdown_widget_cart {
 	border: 1px solid #9fb4d7; border-top: 0;
-	top: 44px; right: -1px;
+	top: 43px; right: -1px;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
 	-moz-border-radius-bottomright: 4px;
