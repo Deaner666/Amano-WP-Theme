@@ -620,34 +620,35 @@ a:hover { text-decoration: none; }
 h5 { clear: none; }
 
 /* Styles for displaying the home page category icons as sprites */
-div.featured-categories a.image {
+div.home-page-featured-categories a.image {
 	text-indent: -9999px; display: block; height: 214px; width: 212px;
 }
-div.featured-categories h2, p { text-align: center; }
-div.featured-categories .dsa_cat a.image {
+div.home-page-featured-categories h2,
+div.home-page-featured-categories p { text-align: center; }
+div.home-page-featured-categories .dsa_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") top left no-repeat;
 }
-div.featured-categories .dsa_cat a.image:hover { background-position: 0 -214px; }
-div.featured-categories .education_cat a.image {
+div.home-page-featured-categories .dsa_cat a.image:hover { background-position: 0 -214px; }
+div.home-page-featured-categories .education_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") -212px 0 no-repeat;
 }
-div.featured-categories .education_cat a.image:hover { background-position: -212px -214px; }
-div.featured-categories .healthcare_cat a.image {
+div.home-page-featured-categories .education_cat a.image:hover { background-position: -212px -214px; }
+div.home-page-featured-categories .healthcare_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") -424px 0 no-repeat;
 }
-div.featured-categories .healthcare_cat a.image:hover { background-position: -424px -214px; }
-div.featured-categories .at_work_cat a.image {
+div.home-page-featured-categories .healthcare_cat a.image:hover { background-position: -424px -214px; }
+div.home-page-featured-categories .at_work_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") -636px 0 no-repeat;
 }
-div.featured-categories .at_work_cat a.image:hover { background-position: -636px -214px; }
-div.featured-categories .at_home_cat a.image {
+div.home-page-featured-categories .at_work_cat a.image:hover { background-position: -636px -214px; }
+div.home-page-featured-categories .at_home_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") -848px 0 no-repeat;
 }
-div.featured-categories .at_home_cat a.image:hover { background-position: -848px -214px; }
-div.featured-categories .shop_cat a.image {
+div.home-page-featured-categories .at_home_cat a.image:hover { background-position: -848px -214px; }
+div.home-page-featured-categories .shop_cat a.image {
 	background: url("../images/custom/icons/category_icons_sprite.jpg") -1060px 0 no-repeat;
 }
-div.featured-categories .shop_cat a.image:hover { background-position: -1060px -214px; }
+div.home-page-featured-categories .shop_cat a.image:hover { background-position: -1060px -214px; }
 
 ul#amano-footer-logos {
 	float: left; padding-top: 10px; padding-bottom: 10px;
@@ -713,7 +714,8 @@ ul#amano-footer-logos {
 	overflow: hidden;	clear: both; border-top: 1px solid #e1e1e1;
 }
 .footer-logos img { float: left; padding: 10px 5px; }
-#footer a { text-decoration: none; }
+#footer a { text-decoration: underline; }
+#footer a:hover { text-decoration: none; }
 
 
 /************************************************************************
