@@ -613,7 +613,7 @@
 			defaults = 
 			{
 				slides: 			'li',				// wich element inside the container should serve as slide
-				animationSpeed: 	3000,				// animation duration
+				animationSpeed: 	1000,				// animation duration
 				autorotation: 		true,				// autorotation true or false?
 				autorotationSpeed:	3,					// duration between autorotation switch in Seconds
 				appendControlls: 	true,				// should slidecontrolls be appended or should we use none/predefined,
