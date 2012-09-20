@@ -27,6 +27,11 @@ h4 { font-size:14px; clear:both; text-transform: uppercase; }
 h5 { font-size:12px; clear:both; text-transform: uppercase; }
 h6 { font-size:10px; clear:both; }
 
+.entry-content h3, .entry-content h4,
+.entry-content h5, .entry-content h6 {
+	text-transform: none;
+}
+
 p { color: #071d44; }
 a { text-decoration: underline; }
 a:hover { text-decoration: none; }
