@@ -109,9 +109,12 @@ $style = avia_get_option('boxed','boxed');
 			echo "</div>";
 		?>
 
+		<div id="strapline">
+			<p>Assistive technology for learning, work and leisure</p >
+		</div>
+
 		<div id="acc-pane">
 			<div class="text-size">
-				<!-- <label class="text">Text Size &rarr;</label> -->
 				<ul class="acc-icons">
 					<li class="small"><a href="#">Small</a></li>
 					<li class="medium"><a href="#">Medium</a></li>
@@ -119,7 +122,6 @@ $style = avia_get_option('boxed','boxed');
 				</ul>
 			</div>
 			<div id="choose-style">
-				<!-- <label class="colour">&larr; Colour scheme</label> -->
 				<ul class="acc-style">
 					<li class="amano"><a href="#">Amano style</a></li>
 					<li class="black-on-white"><a href="#" class="black-on-white-style">Black on White</a></li>
@@ -137,7 +139,7 @@ $style = avia_get_option('boxed','boxed');
 		?>
 
 		<!-- Temporary whilst we wait for shop to go live -->
-		<ul class = 'cart_dropdown'>
+		<ul class = 'cart_dropdown' style="display: none;">
 			<li class='cart_dropdown_first'>
 				<p style="text-align: center; margin-top: -7px;"><strong>Online shop coming soon</strong></p>
 				<div class='dropdown_widget dropdown_widget_cart'>
