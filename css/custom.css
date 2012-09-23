@@ -978,3 +978,6 @@ body.black-on-cream-style #footer ul {
 }
 body.black-on-cream-style .sidebar,
 body.black-on-cream-style .avia-box { background: none; border-color: #000; }
+
+body.medium-style #main * { font-size: 110% !important; }
+body.large-style #main * { font-size: 120% !important; }

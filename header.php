@@ -117,8 +117,8 @@ $style = avia_get_option('boxed','boxed');
 			<div class="text-size">
 				<ul class="acc-icons">
 					<li class="small"><a href="#">Small</a></li>
-					<li class="medium"><a href="#">Medium</a></li>
-					<li class="big"><a href="#">Large</a></li>
+					<li class="medium"><a href="#" class="medium-style">Medium</a></li>
+					<li class="big"><a href="#" class="large-style">Large</a></li>
 				</ul>
 			</div>
 			<div id="choose-style">

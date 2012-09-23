@@ -116,8 +116,13 @@ jQuery(document).ready(function(){
 
 	// Font size
 	jQuery( ".text-size a" ).textresizer({
-	  target: "#main p",
-	  sizes: [ "1em", "1.3em", "1.5em" ],
+	  target: "body",
+	  type: "cssClass",
+	  sizes: [
+	  	"small-style",
+	  	"medium-style",
+	  	"large-style"
+	  ],
 	  selectedIndex: 0
 	});
 
