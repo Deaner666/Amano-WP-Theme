@@ -1000,6 +1000,8 @@ body.medium-style .widget_pages li a,
 body.medium-style .widget_links li a,
 body.medium-style .widget_meta li a,
 body.medium-style .widget_nav_menu li a { font-size: 14px !important; }
+body.medium-style .news-headline { font-size: 18px; }
+body.medium-style .news-time { font-size: 16px; }
 body.medium-style #footer h1 { font-size: 22px; }
 body.medium-style #footer h2 { font-size: 20px; }
 body.medium-style #footer h3, body.medium-style #footer h3 legend { font-size: 18px; }
@@ -1009,6 +1011,7 @@ body.medium-style #footer h6 { font-size: 12px; }
 body.medium-style #footer p,
 body.medium-style #footer li,
 body.medium-style #footer .minitext { font-size: 14px; }
+
 
 /* Large Size */
 body.large-style #main, body.large-style #footer {	line-height: 1.8em !important; }
@@ -1026,6 +1029,8 @@ body.large-style .widget_pages li a,
 body.large-style .widget_links li a,
 body.large-style .widget_meta li a,
 body.large-style .widget_nav_menu li a { font-size: 16px !important; }
+body.large-style .news-headline { font-size: 20px; }
+body.large-style .news-time { font-size: 18px; }
 body.large-style #footer h1 { font-size: 24px; }
 body.large-style #footer h2 { font-size: 22px; }
 body.large-style #footer h3, body.large-style #footer legend { font-size: 18px; }
