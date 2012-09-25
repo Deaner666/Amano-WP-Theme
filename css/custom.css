@@ -979,5 +979,59 @@ body.black-on-cream-style #footer ul {
 body.black-on-cream-style .sidebar,
 body.black-on-cream-style .avia-box { background: none; border-color: #000; }
 
-body.medium-style #main * { font-size: 110% !important; }
-body.large-style #main * { font-size: 120% !important; }
+
+/************************************************************************
+-) ACCESSIBILITY TEXT SIZES
+*************************************************************************/
+
+/* Medium Size */
+body.medium-style #main, body.medium-style #footer {	line-height: 1.6em !important; }
+body.medium-style #main h1 { font-size: 22px; }
+body.medium-style #main h1.page-title { font-size: 32px; }
+body.medium-style #main h2 { font-size: 20px; }
+body.medium-style #main h3, legend { font-size: 18px; }
+body.medium-style #main h4 { font-size: 16px; }
+body.medium-style #main h5 { font-size: 14px; }
+body.medium-style #main h6 { font-size: 12px; }
+body.medium-style #main p, body.medium-style #main li { font-size: 14px; }
+body.medium-style .widget_archive li a,
+body.medium-style .widget_categories li a,
+body.medium-style .widget_pages li a,
+body.medium-style .widget_links li a,
+body.medium-style .widget_meta li a,
+body.medium-style .widget_nav_menu li a { font-size: 14px !important; }
+body.medium-style #footer h1 { font-size: 22px; }
+body.medium-style #footer h2 { font-size: 20px; }
+body.medium-style #footer h3, body.medium-style #footer h3 legend { font-size: 18px; }
+body.medium-style #footer h4 { font-size: 16px; }
+body.medium-style #footer h5 { font-size: 14px; }
+body.medium-style #footer h6 { font-size: 12px; }
+body.medium-style #footer p,
+body.medium-style #footer li,
+body.medium-style #footer .minitext { font-size: 14px; }
+
+/* Large Size */
+body.large-style #main, body.large-style #footer {	line-height: 1.8em !important; }
+body.large-style #main h1 { font-size: 24px; }
+body.large-style #main h1.page-title { font-size: 34px; }
+body.large-style #main h2 { font-size: 22px; }
+body.large-style #main h3, legend { font-size: 20px; }
+body.large-style #main h4 { font-size: 18px; }
+body.large-style #main h5 { font-size: 16px; }
+body.large-style #main h6 { font-size: 14px; }
+body.large-style #main p, body.large-style #main li { font-size: 16px; }
+body.large-style .widget_archive li a,
+body.large-style .widget_categories li a,
+body.large-style .widget_pages li a,
+body.large-style .widget_links li a,
+body.large-style .widget_meta li a,
+body.large-style .widget_nav_menu li a { font-size: 16px !important; }
+body.large-style #footer h1 { font-size: 24px; }
+body.large-style #footer h2 { font-size: 22px; }
+body.large-style #footer h3, body.large-style #footer legend { font-size: 18px; }
+body.large-style #footer h4 { font-size: 18px; }
+body.large-style #footer h5 { font-size: 16px; }
+body.large-style #footer h6 { font-size: 14px; }
+body.large-style #footer p,
+body.large-style #footer li,
+body.large-style #footer .minitext { font-size: 16px; }
