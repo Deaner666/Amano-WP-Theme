@@ -718,6 +718,17 @@ ul#amano-footer-logos {
   background: url('../images/custom/logos/go_on.jpg') no-repeat 0px -81px;
 }
 
+
+/* Gravity Forms */
+.gform_wrapper input, .gform_wrapper select, .gform_wrapper textarea {
+	background: #fff; outline-style: none; font-size: 11px;
+	font-family: inherit; letter-spacing: normal; padding: 2px 0 2px 0;
+	background: none; border: 1px solid #aaa;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
 /************************************************************************
 -) FOOTER
 *************************************************************************/
@@ -744,44 +755,31 @@ ul#amano-footer-logos {
 /* info boxes */
 
 div div .avia-box {
-clear: both;
-padding: 15px;
-background: #f8f8f8;
-border-top: 1px solid;
-border-bottom: 1px solid;
-border-color: #d0daeb;
-border-left: none;
-border-right: none;
-color: #7b7b7b;
-font-size: 12px;
-line-height: 1.5em;
-text-align: center;
-margin: 5px 0;
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
-background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
-background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
-background-image: -ms-linear-gradient(top, #fcfeff, #eff9ff);
-background-image: -o-linear-gradient(top, #fcfeff, #eff9ff);
--webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.15);
--moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.15);
-box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.15);
+	clear: both; padding: 15px; background: #f8f8f8;
+	border-top: 1px solid; border-bottom: 1px solid;
+	border-color: #d0daeb; border-left: none; border-right: none;
+	color: #7b7b7b; font-size: 12px; line-height: 1.5em;
+	text-align: left; margin: 5px 0;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
+	background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
+	background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
+	background-image: -ms-linear-gradient(top, #fcfeff, #eff9ff);
+	background-image: -o-linear-gradient(top, #fcfeff, #eff9ff);
+	-webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.15);
 }
 
-.avia-box.large {
-padding:22px;
-font-size: 13px;
-}
+.avia-box.large { padding:22px; font-size: 13px; }
 
 .avia-box.full {
-border-left:1px solid;
-border-right:1px solid;
-border-color:#d0daeb;
+	border-left:1px solid; border-right:1px solid; border-color:#d0daeb;
 }
 
 .avia-box.rounded {
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 .avia-innerbox { display:inline-block; }
