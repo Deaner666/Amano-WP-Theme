@@ -634,7 +634,7 @@ a:hover { text-decoration: none; }
 	padding: 3px 0px 3px 0;
 }
 
-h5 { clear: none; }
+h5, h2 { clear: none; }
 
 /* Styles for displaying the home page category icons as sprites */
 div.home-page-featured-categories a.image {
