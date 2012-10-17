@@ -754,6 +754,41 @@ ul#amano-footer-logos {
 }
 
 
+/* Process blocks */
+.process-block {
+	padding-bottom: 30px; margin-top: 30px;
+	border-bottom: 1px solid #577dbf;
+}
+.no-top-margin { margin-top: 0; }
+.process-block img.one, .process-block img.two, .process-block img.three {
+	float: left; margin-right: 20px;
+}
+.process-block h2 { font-size: 28px; margin-top: -8px; }
+.instruction-block {
+	border: 1px solid #d0daeb; clear: both; float: right;
+	margin-top: 20px; padding: 10px 20px 10px 70px; width: 565px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcfeff), to(#eff9ff));
+  background-image: -webkit-linear-gradient(top, #fcfeff, #eff9ff); 
+  background-image: -moz-linear-gradient(top, #fcfeff, #eff9ff);
+  background-image: -ms-linear-gradient(top, #fcfeff, #eff9ff);
+  background-image: -o-linear-gradient(top, #fcfeff, #eff9ff);
+  -webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.15);
+}
+.instruction-block h3 {
+	text-indent: -9999px; width: 89px; height: 70px;
+	display: block; float: left; margin-left: -103px;
+}
+.instruction-block h3.icon-you { background: url('../images/custom/icons/you_ribbon.png') no-repeat top left; }
+.instruction-block h3.icon-us { background: url('../images/custom/icons/us_ribbon.png') no-repeat top left; }
+.instruction-block h4 { clear: none; font-size: 16px; }
+.instruction-block ul { margin-top: 10px; }
+
+
 /* Gravity Forms */
 .gform_wrapper input, .gform_wrapper select, .gform_wrapper textarea {
 	background: #fff; outline-style: none; font-size: 11px;
@@ -764,6 +799,27 @@ ul#amano-footer-logos {
 	border-radius: 2px;
 }
 ul.gfield_radio li input { margin-left: 1px; }
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 
 /************************************************************************
 -) FOOTER
