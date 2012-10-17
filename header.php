@@ -90,7 +90,7 @@ $style = avia_get_option('boxed','boxed');
 				if($twitter = avia_get_option('twitter')) echo "<li class='twitter'><a href='http://twitter.com/".$twitter."'>Twitter</a></li>";
 				if($facebook = avia_get_option('facebook')) echo "<li class='facebook'><a href='".$facebook."'>Facebook</a></li>";
 			 ?>
-			 <li class='youtube'><a href='http://www.youtube.com/user/amanotech'>YouTube</a></li>
+			 <li class='youtube-link'><a href='http://www.youtube.com/user/amanotech'>YouTube</a></li>
 		</ul>
 		<!-- end social_bookmarks-->
 

@@ -64,7 +64,7 @@ a:hover { text-decoration: none; }
 #masthead ul#social_bookmarks li.rss { background: url('../images/custom/icons/rss.png') no-repeat top left; }
 #masthead ul#social_bookmarks li.twitter { background: url('../images/custom/icons/twitter.png') no-repeat top left; }
 #masthead ul#social_bookmarks li.facebook { background: url('../images/custom/icons/facebook.png') no-repeat top left; }
-#masthead ul#social_bookmarks li.youtube { background: url('../images/custom/icons/youtube.png') no-repeat top left; }
+#masthead ul#social_bookmarks li.youtube-link { background: url('../images/custom/icons/youtube.png') no-repeat top left; }
 
 #masthead .sub_menu {
 	background: #fff; padding: 0 20px 0 20px; z-index: 2000;

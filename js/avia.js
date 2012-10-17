@@ -12,20 +12,30 @@ jQuery(document).ready(function(){
 	jQuery(".main_menu .avia_mega, .sub_menu>ul, .sub_menu>div>ul").aviaMegamenu({modify_position:true});
 
 	//activates the prettyphoto lightbox
-	if(jQuery.fn.avia_activate_lightbox)		
-	jQuery('body').avia_activate_lightbox();
+	// if(jQuery.fn.avia_activate_lightbox)		
+	// jQuery('body').avia_activate_lightbox();
 	
 	//activates the hover effect for image links
+	// if(jQuery.fn.avia_activate_hover_effect)
+	// {		
+	// 	if((jQuery.browser.msie && jQuery.browser.version < 9)) 
+	// 	{
+	// 		jQuery('#main').avia_activate_hover_effect();
+	// 	}
+	// 	else
+	// 	{
+	// 		jQuery('#main, .main_menu').avia_activate_hover_effect();
+	// 	}
+	// }
+
+	//activates the prettyphoto lightbox - UPDATED BY DAVE
+	if(jQuery.fn.avia_activate_lightbox)
+	jQuery('.slideshow_container').avia_activate_lightbox();
+
+	//activates the hover effect for image links - UPDATED BY DAVE
 	if(jQuery.fn.avia_activate_hover_effect)
-	{		
-		if((jQuery.browser.msie && jQuery.browser.version < 9)) 
-		{
-			jQuery('#main').avia_activate_hover_effect();
-		}
-		else
-		{
-			jQuery('#main, .main_menu').avia_activate_hover_effect();
-		}
+	{
+		jQuery('.slideshow_container').avia_activate_hover_effect();
 	}
 	
 	// enhances contact form with ajax capabilities
