@@ -763,6 +763,7 @@ ul#amano-footer-logos {
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 }
+ul.gfield_radio li input { margin-left: 1px; }
 
 /************************************************************************
 -) FOOTER
