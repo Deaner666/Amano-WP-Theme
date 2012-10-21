@@ -596,23 +596,35 @@ a:hover { text-decoration: none; }
 }
 .sidebar { color: #071d44; }
 .sidebar h3 {	color: #004d95; }
-.sidebar a { color: #071d44; text-decoration: underline; }
+.sidebar ul.sub-menu { border: none !important; }
+.sidebar li { border: none; }
+.sidebar a {
+	color: #071d44; text-decoration: underline; border: none;
+}
 .sidebar a:hover {
 	text-decoration: none; color: #9e2410;
 	background-color: #c6eaff;
 }
+.sidebar_right > .widget_nav_menu a {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d3e9ff;
+	border-right: 1px solid #d3e9ff;
+	-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+}
 .sidebar_right > .widget_nav_menu a:hover {
-	background-color: #c6eaff; /* Overrides minimal.css */
+	background: #e0efff url("../images/skin-minimal/arrow-left-light.png") no-repeat scroll 15px 16px;
 }
 .sidebar h3 { font-size: 18px; text-decoration: none; }
 .sidebar .widgettitle, #footer .widgettitle  {
 	font-size: 14px; text-transform: none;
 }
 .widget_nav_menu a, .sidebar a { font-size: 12px !important; }
-.widget_nav_menu a {
-	border-top: 1px solid #d0daeb !important;
-	padding: 8px 10px 8px 11px !important;
+.sidebar .widget_nav_menu a {
+	padding: 8px 10px 8px 25px !important;
+	background: #e8f3ff url("../images/skin-minimal/arrow-left-light.png") no-repeat scroll 15px 16px;
 }
+
+.js_active .tab { margin: 0; }
 
 
 .post-entry { padding-bottom: 10px; }
