@@ -68,7 +68,7 @@ jQuery(document).ready(function(){
 	if(jQuery.fn.avia_menu_helper)		
 	jQuery(".main_menu .menu").avia_menu_helper({modify_position:true});
 	
-	avia_cufon_helper('h1, h2, h3, h4, h5, h6');
+	// avia_cufon_helper('h1, h2, h3, h4, h5, h6');
 	
 	
 	//accordion slider
