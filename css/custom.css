@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6, legend, .sliderheading {
 h1 { clear:both; font-size:20px; font-weight:normal; text-transform: none; }
 h2 { font-size:18px; clear:both; font-weight:normal; text-transform: none; }
 h3, legend { font-size:16px; clear:both; }
-h4 { font-size:14px; clear:both; text-transform: uppercase; }
-h5 { font-size:12px; clear:both; text-transform: uppercase; }
-h6 { font-size:10px; clear:both; }
+h4 { font-size:14px; clear: none; text-transform: none; }
+h5 { font-size:12px; clear: none; text-transform: none; }
+h6 { font-size:10px; clear: none; }
 
 .entry-content h3, .entry-content h4,
 .entry-content h5, .entry-content h6 {
@@ -624,6 +624,7 @@ a:hover { text-decoration: none; }
 .entry-content ul li {
 	list-style-position: outside;
 	list-style-type: disc;
+	list-style-image: url('../images/custom/icons/bullet.png');
 	margin-left: 17px;
 	padding: 2px 0;
 }
@@ -634,7 +635,9 @@ a:hover { text-decoration: none; }
 	padding: 3px 0px 3px 0;
 }
 
-h5, h2 { clear: none; }
+.wp-caption { margin: 0 20px 0 20px !important; }
+.alignright { margin-right: 0 !important; }
+.alignleft { margin-left: 0 !important; }
 
 /* Styles for displaying the home page category icons as sprites */
 div.home-page-featured-categories a.image {
