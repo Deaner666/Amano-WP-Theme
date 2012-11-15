@@ -18,6 +18,12 @@ if ($avia_config['currently_viewing'] != "fullwidth") // check if its a full wid
 
 			$extraClass = isset($avia_config['slider_first_post_active']) ?  " sidebar_no_margin" : ""; 
 			$subNav = avia_get_option('page_nesting_nav');
+			//If we're on the Dragon page add sidebar ID for green - ADDED BY DAVE
+			if(is_page('dragon-medical')) {
+				$dragon = " dragon-sidebar";
+			} else {
+				$dragon = "";
+			}
 			
 			
 			//display the sidebars
@@ -27,7 +33,7 @@ if ($avia_config['currently_viewing'] != "fullwidth") // check if its a full wid
 				{	
 					$default_sidebar = true;
 					
-					echo "<div class='sidebar sidebar_".$sidebar.$extraClass."'>";
+					echo "<div class='sidebar sidebar_".$sidebar.$extraClass.$dragon."'>";
 					
 					
 					/*
