@@ -642,7 +642,7 @@ a:hover { text-decoration: none; }
   -moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.15);
   box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.15);
 }
-.sidebar .widget_nav_menu a {
+.dragon-sidebar .widget_nav_menu a {
   background: #e1f4d6 url("../images/skin-minimal/arrow-left-light.png") no-repeat scroll 15px 16px;
 }
 
